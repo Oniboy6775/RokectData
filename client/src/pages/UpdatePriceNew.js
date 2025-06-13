@@ -90,6 +90,14 @@ const UpdatePriceNew = () => {
               );
             })}
           </section>
+          <div className="flex justify-center items-center">
+            <h2 className="text-center font-bold text-2xl m-2 normal-case">
+              Select a plan
+            </h2>
+            <div className="btn" onClick={toggleEditModal}>
+              Add plan
+            </div>
+          </div>
           {/* each plan */}
           {isLoading ? (
             <div className="loading"></div>
@@ -97,15 +105,6 @@ const UpdatePriceNew = () => {
             selectedNetwork != "select" &&
             availablePlans?.length > 0 && (
               <>
-                <div className="flex justify-center items-center">
-                  <h2 className="text-center font-bold text-2xl m-2 normal-case">
-                    Select a plan
-                  </h2>
-                  <div className="btn" onClick={toggleEditModal}>
-                    Add plan
-                  </div>
-                </div>
-
                 <div className="flex justify-center gap-2 flex-wrap ">
                   {availablePlans.map((e, index) => {
                     return (
