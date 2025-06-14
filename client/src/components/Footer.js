@@ -35,16 +35,16 @@ export const Footer = () => {
           <div className="">
             <div className=" ">
               <p className="uppercase text-blue-500">Office address</p>
-              <p>No 53B Afolabi's building osin okete, ilorin, kwara state</p>
+              <p>Tunde Azeez st, Osogbo. Osun state</p>
             </div>
             <div className=" ">
               <p className="uppercase text-blue-500">phone number</p>
-              <p>08034825817</p>
+              <p>09063210717</p>
             </div>
             <div className=" lowercase">
               <p className="uppercase text-blue-500">Contact us</p>
               <p>admin@RocketData.com.ng</p>
-              <p>bigafott@gmail.com</p>
+              {/* <p>bigafott@gmail.com</p> */}
             </div>
           </div>
         </div>
